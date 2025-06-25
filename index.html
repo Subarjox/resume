@@ -1,0 +1,541 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+  </style>
+  <title>Fahreza's Portofolio</title>
+
+  <link rel="shortcut icon" href="Img/logoatas.png" type="image">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"/>
+  <!--Font 1-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  
+  <script src="main.js"></script>
+  <!--Font 2-->
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+  </style>
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- Animate Style -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  
+  <!-- AOS -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+
+<body>
+  <!-- naavbar -->
+  <nav id="navbar" class="navbar navbar-expand-lg navbar-dark fixed-top animate__animated animate__fadeInDown">
+    <div class="container">
+      <a id ="logo" class="navbar-brand" href="#"> <img src="img/logorl1.png" height="25px"></a>
+
+      <button id="navbut" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+        aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse text-right" id="navbarText">
+        <ul  class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link navitem" href="#about-me">About Me</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link navitem" href="#expertise">Expertise</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link navitem" href="#portfolio">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link navitem" href="#contact">Contact Me</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link navitem" href="certificate.html">Certifications</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  
+  <!-- banner -->
+  <div class="container-fluid banner">
+    <div class="container text-center">
+      <h1 id="nama" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">Muhamad Fahreza</h4>
+        
+      <h2 id="pass" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200"></h2>    
+    </div>
+  </div>
+
+  <div class="spacer"> </div>
+
+  <!-- projectrs -->
+  <section class="content-section">
+    
+    <div class="about-me" id="about-me">
+      <div class="container">
+        <div class="row align-items-start">
+          <div class="col-lg-5" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="200">
+            <img class="fotodiri" src="img/about.png" alt="Muhamad Fahreza" />
+          </div>
+          <div class="col-lg-7" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="200">
+            <h3 style="margin-bottom: 2rem;">Halo I'm <strong class="tech blue">Muhamad Fahreza ⚡</strong></h3>
+            <p style="text-align: justify;">
+              A Computer Engineering student at UPI in my sixth semester. 
+              <strong class="blue">I’m passionate about web and mobile development, AI and quantitative finance</strong>. 
+              I’ve built projects using JavaScript, C++, Flutter, and Laravel, and deployed AI models with Flask on Google Cloud. 
+              I also work with ESP32/ESP8266 for embedded applications. With experience from internships and competitions, 
+              I aim to create meaningful tech solutions and grow into a thoughtful, impactful developer and future tech leader.
+            </p>
+    
+            <!-- Spacer -->
+            <div style="height: 40px;"></div>
+    
+            <!-- Timeline Section -->
+            <div class="timeline">
+              <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                  <h5>Universitas Pendidikan Indonesia </h5>
+                  <p>Computer Engineering (2022 - 2026)</p>
+                </div>
+              </div>
+              <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="timeline-content">
+                  <h5>SMAIT As-Syifa Boarding School</h5>
+                  <p>Sekolah Menengah Atas (2020 - 2022)</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+      
+
+    <div class="expertise" id="expertise">
+      <h2 class="judul-section" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">Expertise 🔎</h2>
+      <a href="certificate.html"><p class="tech white"> Certifications & Awards </p></a>
+
+      <div class="card" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="200" style="width: 100%;">
+        <div class="tech card-header">Programming Languages</div>
+        <div class="card-body">
+          <ul class="row list-unstyled justify-content-center gx-4 gy-4">
+            <li class="col-lg-4 col-md-3  text-center skill-item">
+              <img src="img/html.png" class="skill-icon" alt="Flask">
+              <div class="tech skill-label">HTML</div>
+            </li>
+            <li class="col-lg-4 col-md-3  text-center skill-item">
+              <img src="img/css.png" class="skill-icon" alt="Flask">
+              <div class="tech skill-label">CSS</div>
+            </li>
+            <li class="col-lg-4 col-md-3  text-center skill-item">
+              <img src="img/JavaScript.png" class="skill-icon" alt="Flask">
+              <div class="tech skill-label">JavaScript</div>
+            </li>
+            <li class="col-lg-4 col-md-3  text-center skill-item">
+              <img src="img/python.jpg" class="skill-icon" alt="Flask">
+              <div class="tech skill-label">Phyton</div>
+            </li>
+            <li class="col-lg-4 col-md-3  text-center skill-item">
+              <img src="img/c++.png" class="skill-icon" alt="Flask">
+              <div class="tech skill-label">C++</div>
+            </li>
+            <li class="col-lg-4 col-md-3  text-center skill-item">
+              <img src="img/php.png" class="skill-icon" alt="Flask">
+              <div class="tech skill-label">PHP</div>
+            </li>
+            <li class="col-lg-4 col-md-3  text-center skill-item">
+              <img src="img/Java.png" class="skill-icon" alt="Flask">
+              <div class="tech skill-label">Java</div>
+            </li>
+            <li class="col-lg-4 col-md-3  text-center skill-item">
+              <img src="img/MySQL.png" class="skill-icon" alt="Flask">
+              <div class="tech skill-label">MySQL</div>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="card" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="200"  style="width: 100%;">
+        <div class="tech card-header">Frameworks</div>
+        <div class="card-body">
+          <ul class="row list-unstyled justify-content-center gx-4 gy-4">
+            <li class="col-lg-4 col-md-3  text-center skill-item">
+              <img src="img/Laravel-Logo.png" class="skill-icon" alt="Flask">
+              <div class="tech skill-label">Laravel</div>
+            </li>
+            <li class="col-lg-4 col-md-3  text-center skill-item">
+              <img src="img/Node.js.png" class="skill-icon" alt="Flask">
+              <div class="tech skill-label">Node js</div>
+            </li>
+            <li class="col-lg-4 col-md-3  text-center skill-item">
+              <img src="img/express.png" class="skill-icon" alt="Flask">
+              <div class="tech skill-label">Express</div>
+            </li>
+            <li class="col-lg-4 col-md-3  text-center skill-item">
+              <img src="img/fluter.png" class="skill-icon" alt="Flask">
+              <div class="tech skill-label">Flutter</div>
+            </li>
+            <li class="col-lg-4 col-md-3  text-center skill-item">
+              <img src="img/flask.png" class="skill-icon" alt="Flask">
+              <div class="tech skill-label">Flask</div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="portfolio">  
+      <div class="container text-center">  
+        <h2 class="judul-section white mt-3" data-aos="fade-down" data-aos-duration="1000">Projects 🦾</h2>
+        <p class="tech white" data-aos="fade-down" data-aos-duration="1000" style="margin-bottom: 4rem;">list of personally memorable projects</p>  
+    
+        <div class="row justify-content-center g-4 d-flex flex-wrap" data-aos="fade-up" data-aos-duration="1000">  
+          
+          <div class="d-flex justify-content-center col-md-3 col-12"
+              data-bs-toggle="modal"
+              data-bs-target="#imageModal"
+              data-bs-toggle="modal"
+              data-bs-target="#imageModal" 
+              data-image="img/dumbl-min.png" 
+              data-stacks="HTML, NodeJS, Express, CSS, JavaScript"
+              data-github="https://github.com/Subarjox/dumbll"
+              data-title="DUMBL" 
+              data-description="DUMBL is a web-based health tool that calculates BMI and body fat percentage, 
+              then suggests personalized workout recommendations. 
+              It provides a clean, responsive interface for tracking physical health metrics. 
+              Users receive fitness advice tailored to their body data, 
+              promoting healthier habits through simple, data-driven insights."
+              onclick="ModalSource(this)"
+              >
+
+            <div class="card w-100" style="max-width: 350px;">
+              <img src="img/dumbl-min.png" class="card-img-top" style="height: 180px; object-fit: cover;">
+              <div class="card-img-overlay d-flex flex-column justify-content-end">
+                <div class="hover-box">
+                  <h5 class="hover-text white">DUMBL</h5>  
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="d-flex justify-content-center col-md-3 col-12"
+          data-bs-toggle="modal"
+          data-bs-target="#imageModal"
+          data-bs-toggle="modal"
+          data-bs-target="#imageModal" 
+          data-image="img/winnicode-min.png" 
+          data-stacks="HTML, Laravel, CSS, PHP, MySQL, JavaScript"
+          data-github="https://github.com/Subarjox/winnicodeweb"
+          data-title="Winnicode News Portal" 
+          data-description="WinnicodeNews is a Laravel-based news portal that fetches articles from external APIs and allows users to write their own. 
+                            It features a responsive design with real-time like, dislike, and view counters. 
+                            Users can interact with content, while admins moderate submissions for quality and relevance."
+          onclick="ModalSource(this)">
+
+
+            <div class="card w-100" style="max-width: 350px;">
+              <img src="img/winnicode-min.png" class="card-img-top" style="height: 180px; object-fit: cover;">
+              <div class="card-img-overlay d-flex flex-column justify-content-end">
+                <div class="hover-box">
+                  <h5 class="hover-text white">WinnicodeNews</h5> 
+                </div>
+              </div>
+            </div>
+          </div>
+  
+          <div class="d-flex justify-content-center col-md-3 col-12"
+            data-bs-toggle="modal"
+            data-bs-target="#imageModal"
+            data-image="img/intellectAI-min.png"
+            data-stacks="HTML, CSS, JavaScript, PHP, MySQL"
+            data-github="https://github.com/Subarjox/IntellectAI"
+            data-title="IntellectAI"
+            data-description="IntellectAI is an AI education platform built with HTML, PHP, CSS, JavaScript, and MySQL. 
+                              It offers interactive content to help users understand artificial intelligence concepts. 
+                              The platform is user-friendly and designed to support beginners exploring AI through tutorials, code examples, and structured lessons."
+            onclick="ModalSource(this)">
+          <div class="card w-100" style="max-width: 350px;">
+            <img src="img/intellectAI-min.png" class="card-img-top" style="height: 180px; object-fit: cover;">
+            <div class="card-img-overlay d-flex flex-column justify-content-end">
+              <div class="hover-box">
+                <h5 class="hover-text white">IntellectAI</h5> 
+              </div>
+            </div>
+          </div>
+        </div>
+
+          <div class="d-flex justify-content-center col-md-3 col-12"
+              data-bs-toggle="modal"
+              data-bs-target="#imageModal"
+              data-image="img/tugasqu.png"
+              data-stacks="HTML, CSS, JavaScript, PHP, MySQL"
+              data-github="https://github.com/Subarjox/TugasQu"
+              data-title="TugasQU"
+              data-description="TugasQu is an online assignment hub that connects students and teachers. 
+                                Students can submit tasks while teachers can view submitted tasks, provide feedback, and leave comments. 
+                                Designed for effective academic supervision, the platform streamlines communication and task management in a simple and organized way."
+              onclick="ModalSource(this)">
+            <div class="card w-100" style="max-width: 350px;">
+              <img src="img/tugasqu.png" class="card-img-top" style="height: 180px; object-fit: cover;">
+              <div class="card-img-overlay d-flex flex-column justify-content-end">
+                <div class="hover-box">
+                  <h5 class="hover-text white">TugasQu</h5> 
+                </div>
+              </div>
+            </div>
+          </div>
+
+            <div class="d-flex justify-content-center col-md-3 col-12"
+                data-bs-toggle="modal"
+                data-bs-target="#imageModal"
+                data-image="img/hexapod-min.png"
+                data-stacks="CPP"
+                data-github=""
+                data-title="Hexapod Robot"
+                data-description="Hexapod Robot is a six-legged walking robot with fully 3D-printed parts, powered by Arduino Mega. 
+                                  Developed by my team and me, I contributed to Arduino programming, power management, testing, and debugging, 
+                                  ensuring stable movement and coordination across all legs."
+                onclick="ModalSource(this)">
+              <div class="card w-100" style="max-width: 350px;">
+                <img src="img/hexapod-min.png" class="card-img-top" style="height: 180px; object-fit: cover;">
+                <div class="card-img-overlay d-flex flex-column justify-content-end">
+                  <div class="hover-box">
+                    <h5 class="hover-text white">Hexapod Robot</h5> 
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="d-flex justify-content-center col-md-3 col-12"
+                data-bs-toggle="modal"
+                data-bs-target="#imageModal"
+                data-image="img/strukdat-min.png"
+                data-stacks="CPP"
+                data-github=""
+                data-title="Strukdat Game"
+                data-description="Strukdat Game is an educational Quiz game about data structures, set in a military-themed world. 
+                                  Built in Unity, the game teaches concepts like arrays, stacks, and trees through engaging combat-based mechanics, 
+                                  making learning interactive and enjoyable for students."
+                onclick="ModalSource(this)">
+              <div class="card w-100" style="max-width: 350px;">
+                <img src="img/strukdat-min.png" class="card-img-top" style="height: 180px; object-fit: cover;">
+                <div class="card-img-overlay d-flex flex-column justify-content-end">
+                  <div class="hover-box">
+                    <h5 class="hover-text white">Strukdat Game</h5> 
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="d-flex justify-content-center col-md-3 col-12"
+                data-bs-toggle="modal"
+                data-bs-target="#imageModal"
+                data-image="img/fuzzy-min.png"
+                data-stacks="Python, Flask"
+                data-github="https://github.com/Subarjox/BLU/tree/main/fuzzy"
+                data-title="Water Quality Detector"
+                data-description="BLU – Fuzzy applies fuzzy logic to assess water quality using six parameters 
+                including pH, TDS, turbidity, temperature, conductivity, and DO (dissolved oxygen).
+                The system references global standards (WAWQI, IKA, WQI) to determine safety levels. 
+                It supports intelligent environmental monitoring with precise and adaptive evaluation."
+                onclick="ModalSource(this)">
+              <div class="card w-100" style="max-width: 350px;">
+                <img src="img/fuzzy-min.png" class="card-img-top" style="height: 180px; object-fit: cover;">
+                <div class="card-img-overlay d-flex flex-column justify-content-end">
+                  <div class="hover-box">
+                    <h5 class="hover-text white">Water Quality Fuzzy</h5> 
+                  </div>
+                </div>
+              </div>
+            </div>
+
+              <div class="d-flex justify-content-center col-md-3 col-12"
+                  data-bs-toggle="modal"
+                  data-bs-target="#imageModal"
+                  data-image="img/blu-min.png"
+                  data-stacks="Flutter, PHP, MySQL, HTML, CSS, JavaScript"
+                  data-github="https://github.com/Subarjox/BLU-Mobile"
+                  data-title="BLU : Web & Mobile Apps"
+                  data-description="BLU is a smart water monitoring platform combining hardware and software. 
+                                    The device detects water quality, while the platform—built with MySQL, PHP, HTML, CSS, JS, and Flutter—monitors and displays real-time data. 
+                                    It works across web and mobile to ensure safe water access and environmental awareness."
+                  onclick="ModalSource(this)">
+                <div class="card w-100" style="max-width: 350px;">
+                  <img src="img/blu-min.png" class="card-img-top" style="height: 180px; object-fit: cover;">
+                  <div class="card-img-overlay d-flex flex-column justify-content-end">
+                    <div class="hover-box">
+                      <h5 class="hover-text white">BLU</h5> 
+                    </div>
+                  </div>
+                </div>
+              </div>
+                
+        </div>
+
+        <p class="tech white" data-aos="fade-down" data-aos-duration="1000" style="margin-top: 4rem;">And more to come!</p>  
+  
+      </div>  
+    </div>
+
+
+    <div class="contact" id="contact">
+      <h2 class="judul-section mt-4" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">Contact 🤝</h2>
+      <p style="margin-bottom: 4rem;">Get to know me better! Contact me through my socials</p>
+    
+      <div class="container-fluid">
+          <div class="row g-4 justify-content-center"  data-aos="fade-down" data-aos-duration="1000" data-aos-delay="200">
+            <div class="col-lg-3 col-md-4 col-sm-6 text-center contact-item">
+              <a href="https://www.linkedin.com/in/muhamad-fahreza-andina-rizki-863835265/" target="_blank" class="contact-link d-flex ">
+                <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" class="contact-icon me-2" alt="LinkedIn">
+                <span class="contact-label">LinkedIn</span>
+              </a>
+            </div>
+          
+            <div class="col-lg-3 col-md-4 col-sm-6 text-center contact-item">
+              <a href="https://github.com/Subarjox" target="_blank" class="contact-link d-flex ">
+                <img src="https://cdn-icons-png.flaticon.com/512/733/733553.png" class="contact-icon me-2" alt="GitHub">
+                <span class="contact-label">GitHub</span>
+              </a>
+            </div>
+          
+            <div class="col-lg-3 col-md-4 col-sm-6 text-center contact-item">
+              <a href="mailto:mfahrezza12@gmail.com" class="contact-link d-flex ">
+                <img src="https://cdn-icons-png.flaticon.com/512/732/732200.png" class="contact-icon me-2" alt="Email">
+                <span class="contact-label">Email</span>
+              </a>
+            </div>
+          
+            <div class="col-lg-3 col-md-4 col-sm-6 text-center contact-item">
+              <a href="https://instagram.com/" target="_blank" class="contact-link d-flex ">
+                <img src="https://cdn-icons-png.flaticon.com/512/1384/1384063.png" class="contact-icon me-2" alt="Instagram">
+                <span class="contact-label">Instagram</span>
+              </a>
+            </div>
+          </div>
+    
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="modal fade" id="imageModal" tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered modal-xl">
+      <div class="modal-content bg-dark border-0 text-white">
+        <div class="modal-body p-0">
+          <img id="modalImage" src="" class="img-fluid w-100" alt="Full Image">
+  
+          <div class="p-4 text-center">
+            <h5 id="modalTitle" class="mb-3">Project Title</h5>
+            <div class="row justify-content-center gx-4 gy-4" id="modalTechStacks">
+            </div>
+            <p id="modalbriefDescription" class="mt-4">Project description</p>
+            <a id="githubLink" href="#" target="_blank" class="btn btn-outline-light mt-3 d-inline-flex align-items-center gap-2">
+              <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/github.svg" alt="GitHub" style="width: 20px; height: 20px;">
+              View on GitHub
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>
+  
+
+
+
+<section id="footer">
+  <p> Copyright to <strong class="blue">Muhamad Fahreza</strong> &copy; 2025</p>
+</section>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+    crossorigin="anonymous"></script>
+
+    <script>
+      function ModalSource(el) {
+        const image = el.getAttribute('data-image');
+        const title = el.getAttribute('data-title');
+        const description = el.getAttribute('data-description');
+        const stacksRaw = el.getAttribute('data-stacks');
+        const github = el.getAttribute('data-github');
+
+        document.getElementById('modalImage').src = image;
+        document.getElementById('modalTitle').textContent = title;
+        document.getElementById('modalbriefDescription').textContent = description;
+
+        const githubLink = document.getElementById('githubLink');
+        if (github) {
+          githubLink.href = github;
+          githubLink.style.display = 'inline-flex';
+        } else {
+          githubLink.style.display = 'none';
+        }
+
+        const stackIcons = {
+          HTML: "img/html.png",
+          CSS: "img/css.png",
+          JavaScript: "img/JavaScript.png",
+          Python: "img/python.jpg",
+          CPP: "img/c++.png",
+          PHP: "img/php.png",
+          Java: "img/Java.png",
+          MySQL: "img/MySQL.png",
+          Laravel: "img/Laravel-Logo.png",
+          NodeJS: "img/Node.js.png",
+          Express: "img/express.png",
+          Flutter: "img/fluter.png",
+          Flask: "img/flask.png"
+        };
+
+        const techContainer = document.getElementById('modalTechStacks');
+        techContainer.innerHTML = '';
+
+        if (stacksRaw) {
+          const stacks = stacksRaw.split(',').map(s => s.trim());
+          stacks.forEach(stack => {
+            const iconPath = stackIcons[stack] || "img/default.png";
+            const col = document.createElement('div');
+            col.className = "col-6 col-sm-4 col-md-3 col-lg-2 d-flex flex-column align-items-center";
+
+            const img = document.createElement('img');
+            img.src = iconPath;
+            img.alt = stack;
+            img.className = "skill-icon mb-2";
+
+            const label = document.createElement('div');
+            label.className = "tech skill-label";
+            label.textContent = stack;
+
+            col.appendChild(img);
+            col.appendChild(label);
+            techContainer.appendChild(col);
+          });
+        }
+      }
+    </script>
+
+  <!-- AOS -->
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+
+</body>
+
+</html>

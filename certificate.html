@@ -1,0 +1,295 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+  </style>
+  <title>Fahreza's Portofolio</title>
+
+  <link rel="shortcut icon" href="Img/logoatas.png" type="image">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"/>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  
+  <script src="main.js"></script>
+  <!--Font 2-->
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+  </style>
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- Animate Style -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  
+  <!-- AOS -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+
+<body>
+  <!-- naavbar -->
+  <nav id="navbar" class="navbar navbar-expand-lg navbar-dark fixed-top animate__animated animate__fadeInDown">
+    <div class="container">
+      <a id ="logo" class="navbar-brand" href="#"> <img src="img/logorl1.png" height="25px"></a>
+
+      <button id="navbut" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+        aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse text-right" id="navbarText">
+        <ul  class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link navitem" href="index.html">Home</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container-fluid banner_certificate">
+    <div class="container text-center">
+      <h1 id="nama" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">Muhamad Fahreza</h4>
+      <h2 id="pass" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200"></h2>    
+    </div>
+  </div>
+
+  <div class="minispacer"> </div>
+
+  
+  <section class="certificate">  
+    <div class="container text-center">  
+      <h2 class="judul-section white" data-aos="fade-down" data-aos-duration="1000">Certificate</h2>  
+      <h2 class="tech white" data-aos="fade-down" data-aos-duration="1000">List of Certificates</h2> 
+  
+      <div class="row justify-content-center g-4 d-flex flex-wrap">  
+        
+        <div class="d-flex justify-content-center col-md-3 col-12"             
+            data-bs-toggle="modal"
+            data-bs-target="#imageModal"
+            data-image="img/Visualisasi_Data_page-0001-min.jpg"
+            data-title="Dicoding : Visualisasi Data"
+            data-description="Sertifikat ini di dapatkan ketika mengikuti kelas visualisasi data pada dicoding"
+            onclick="showImageFromCard(this)">
+
+          <div class="card text-bg-dark w-100" style="max-width: 350px;">
+            <img src="img/Visualisasi_Data_page-0001-min.jpg" 
+            class="card-img-top" 
+            style="height: 180px; object-fit: cover;">
+
+            <div class="card-img-overlay d-flex flex-column justify-content-end">
+              <div class="hover-box">
+                <h5 class="hover-text">Dicoding : Visualisasi Data</h5>  
+                <p class="hover-text">Click For Detail</p>
+              </div>
+            </div>
+          </div>
+        </div>
+  
+        <div class="d-flex justify-content-center col-md-3 col-12"             
+            data-bs-toggle="modal"
+            data-bs-target="#imageModal"
+            data-image="img/myskillBE-min.jpg"
+            data-title="Myskill : Back End"
+            data-description="Sertifikat ini di dapatkan ketika mengikuti kelas visualisasi data pada dicoding"
+            onclick="showImageFromCard(this)">
+
+          <div class="card text-bg-dark w-100" style="max-width: 350px;">
+            <img src="img/myskillBE-min.jpg" 
+            class="card-img-top" 
+            style="height: 180px; object-fit: cover;">
+
+            <div class="card-img-overlay d-flex flex-column justify-content-end">
+              <div class="hover-box">
+                <h5 class="hover-text">Myskill : BE</h5>  
+                <p class="hover-text">Click For Detail</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="d-flex justify-content-center col-md-3 col-12"             
+        data-bs-toggle="modal"
+        data-bs-target="#imageModal"
+        data-image="img/myskillFE-min.jpg"
+        data-title="Myskill : FE"
+        data-description="Deskripsi sertifikat ini."
+        onclick="showImageFromCard(this)">
+   
+     <div class="card text-bg-dark w-100" style="max-width: 350px;">
+       <img src="img/myskillFE-min.jpg" 
+            class="card-img-top" 
+            style="height: 180px; object-fit: cover;">
+   
+       <div class="card-img-overlay d-flex flex-column justify-content-end">
+         <div class="hover-box">
+           <h5 class="hover-text">Myskill : FE</h5>  
+           <p class="hover-text">Click For Detail</p>
+         </div>
+       </div>
+     </div>
+   </div>
+   
+   <div class="d-flex justify-content-center col-md-3 col-12"             
+        data-bs-toggle="modal"
+        data-bs-target="#imageModal"
+        data-image="img/myskillII-min.jpg"
+        data-title="Myskill : Internet"
+        data-description="Deskripsi sertifikat ini."
+        onclick="showImageFromCard(this)">
+   
+     <div class="card text-bg-dark w-100" style="max-width: 350px;">
+       <img src="img/myskillII-min.jpg" 
+            class="card-img-top" 
+            style="height: 180px; object-fit: cover;">
+   
+       <div class="card-img-overlay d-flex flex-column justify-content-end">
+         <div class="hover-box">
+           <h5 class="hover-text">Myskill : Internet</h5>  
+           <p class="hover-text">Click For Detail</p>
+         </div>
+       </div>
+     </div>
+   </div>
+   
+   <div class="d-flex justify-content-center col-md-3 col-12"             
+        data-bs-toggle="modal"
+        data-bs-target="#imageModal"
+        data-image="img/Winnicode_page-0001-min.jpg"
+        data-title="Intern : Winnicode"
+        data-description="Deskripsi sertifikat ini."
+        onclick="showImageFromCard(this)">
+   
+     <div class="card text-bg-dark w-100" style="max-width: 350px;">
+       <img src="img/Winnicode_page-0001-min.jpg" 
+            class="card-img-top" 
+            style="height: 180px; object-fit: cover;">
+   
+       <div class="card-img-overlay d-flex flex-column justify-content-end">
+         <div class="hover-box">
+           <h5 class="hover-text">Intern : Winnicode</h5>  
+           <p class="hover-text">Click For Detail</p>
+         </div>
+       </div>
+     </div>
+   </div>
+   
+   <!-- Financial Literacy  -->
+   <div class="d-flex justify-content-center col-md-3 col-12"             
+        data-bs-toggle="modal"
+        data-bs-target="#imageModal"
+        data-image="img/Financial_Lit_page-0001-min.jpg"
+        data-title="Dicoding : Financial Literacy"
+        data-description="Deskripsi sertifikat ini."
+        onclick="showImageFromCard(this)">
+   
+     <div class="card text-bg-dark w-100" style="max-width: 350px;">
+       <img src="img/Financial_Lit_page-0001-min.jpg" 
+            class="card-img-top" 
+            style="height: 180px; object-fit: cover;">
+   
+       <div class="card-img-overlay d-flex flex-column justify-content-end">
+         <div class="hover-box">
+           <h5 class="hover-text">Dicoding : Financial Literacy</h5>  
+           <p class="hover-text">Click For Detail</p>
+         </div>
+       </div>
+     </div>
+   </div>
+  
+      </div>  
+    </div>  
+  </section>
+
+  <section class="certificate ">  
+    <div class="container text-center">  
+      <h2 class="judul-section white mt-3" data-aos="fade-down" data-aos-duration="1000">Awards</h2>  
+      <h2 class="tech white" data-aos="fade-down" data-aos-duration="1000">List of Awards</h2> 
+  
+      <div class="row justify-content-center g-4 d-flex flex-wrap">  
+        
+        <div class="d-flex justify-content-center col-md-3 col-12"             
+        data-bs-toggle="modal"
+        data-bs-target="#imageModal"
+        data-image="img/NESO 15 - 24-490_page-0001-min.jpg"
+        data-title="Neso Award"
+        data-description="Deskripsi sertifikat ini."
+        onclick="showImageFromCard(this)">
+   
+     <div class="card text-bg-dark w-100" style="max-width: 350px;">
+       <img src="img/NESO 15 - 24-490_page-0001-min.jpg" 
+            class="card-img-top" 
+            style="height: 180px; object-fit: cover;">
+   
+       <div class="card-img-overlay d-flex flex-column justify-content-end">
+         <div class="hover-box">
+           <h5 class="hover-text">Neso Award</h5>  
+           <p class="hover-text">Click For Detail</p>
+         </div>
+       </div>
+     </div>
+   </div>
+
+    </div>  
+  </section>
+
+
+  <div class="modal fade" id="imageModal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-xl">
+      <div class="modal-content bg-dark border-0 text-white">
+        <div class="modal-body p-0">
+          <img id="modalImage" src="" class="img-fluid w-100" alt="Full Image">
+          <div class="p-4">
+            <h5 id="modalTitle">Certificate Title</h5>
+            <p id="modalDescription">This is a detailed description of the certificate.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+</body>
+
+<section id="footer">
+  <p> Copyright to <strong class="blue">Muhamad Fahreza</strong> &copy; 2025</p>
+</section>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+    crossorigin="anonymous"></script>
+  <!-- AOS -->
+  <script>
+
+    function showImageFromCard(cardElement) {
+    const image = cardElement.dataset.image;
+    const title = cardElement.dataset.title;
+    const description = cardElement.dataset.description;
+
+    document.getElementById('modalImage').src = image;
+    document.getElementById('modalTitle').innerText = title;
+    document.getElementById('modalDescription').innerText = description;
+  }
+  </script>
+
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+
+</body>
+
+</html>
