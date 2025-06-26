@@ -48,10 +48,19 @@ window.addEventListener('scroll', function() {
 
   window.addEventListener('scroll', function() {
     let navbar = document.querySelector('.banner');
-    if (window.scrollY > 150) {
+    if (window.scrollY > 68) {
       navbar.classList.add('scrolled');
     } else {
       navbar.classList.remove('scrolled');
+    }
+  });
+
+  window.addEventListener('scroll', function() {
+    let navbar = document.querySelector('.spacer');
+    if (window.scrollY > 68) {
+      navbar.classList.add('show');
+    } else {
+      navbar.classList.remove('show');
     }
   });
 
