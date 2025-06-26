@@ -109,7 +109,6 @@ a:hover {
 
     /* Transisi halus saat berubah */
     transition: 
-    transform 0.8s ease,
     opacity 0.8s ease,
     filter 0.8s ease,
     z-index 0.8s ease,
@@ -140,7 +139,6 @@ a:hover {
      
   transform: scale(1.05);  
   opacity: 1;            
-  filter: blur(4px);        
 
   z-index: -1;           
 }
