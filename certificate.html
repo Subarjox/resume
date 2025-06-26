@@ -287,7 +287,11 @@
 
   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
   <script>
-    AOS.init();
+        window.addEventListener('load', () => {
+        if (window.innerWidth > 768) {
+        AOS.init();
+        }
+        });
   </script>
 
 </body>
