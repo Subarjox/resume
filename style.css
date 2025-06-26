@@ -105,12 +105,11 @@ a:hover {
 
   overflow: hidden;
   z-index: 1; 
-  transform: scale(1.15);
+  transform: scale(1.025);
 
     /* Transisi halus saat berubah */
     transition: 
-    opacity 0.8s ease,
-    filter 0.8s ease,
+    transform 0.8s ease,
     z-index 0.8s ease,
     top 0.8s ease;
 
@@ -137,9 +136,7 @@ a:hover {
   text-align: center;
   overflow: hidden;
      
-  transform: scale(1.05);  
-  opacity: 1;            
-
+  transform: scale(1);              
   z-index: -1;           
 }
 
